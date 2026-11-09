@@ -127,6 +127,6 @@ this run:
 
 ### Not reproduced
 
-Nothing from the selected experiment (exp_4) is omitted: all four assets, all
-three confidence levels where the paper reports a rate, the time-series plot,
-and the critical-value table are reproduced above.
+Nothing from the empirical application (Section 4) is omitted: all four
+assets, all three confidence levels where the paper reports a rate, the
+time-series plot, and the critical-value table are reproduced above.
