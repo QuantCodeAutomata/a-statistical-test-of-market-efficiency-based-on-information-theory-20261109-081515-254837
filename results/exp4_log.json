@@ -1,0 +1,87 @@
+{
+  "load_metadata": {
+    "CAC 40": {
+      "ticker": "CAC.PA",
+      "rows": 258,
+      "start": "2021-01-03",
+      "end": "2021-12-30",
+      "data_source": "yahoo",
+      "warnings": [
+        "yahoo has 258 bars vs massive 0"
+      ]
+    },
+    "Russell 2000": {
+      "ticker": "IWM",
+      "rows": 252,
+      "start": "2021-01-04",
+      "end": "2021-12-31",
+      "data_source": "massive",
+      "warnings": null
+    },
+    "Perficient": {
+      "ticker": "PRFT",
+      "rows": 252,
+      "start": "2021-01-04",
+      "end": "2021-12-31",
+      "data_source": "massive",
+      "warnings": null
+    },
+    "BTC/USD": {
+      "ticker": "X:BTCUSD",
+      "rows": 365,
+      "start": "2020-12-31",
+      "end": "2021-12-30",
+      "data_source": "massive",
+      "warnings": [
+        "Loaded as a single symbol: identity tracking, local split/dividend adjustment and the Yahoo backstop apply only to Massive stocks."
+      ]
+    }
+  },
+  "thresholds": {
+    "0.95": 0.0432192809488736,
+    "0.99": 0.06643856189774722,
+    "0.999": 0.09965784284662087
+  },
+  "summary": [
+    {
+      "asset": "CAC 40",
+      "n_dates": 158,
+      "first_date": "2021-05-25",
+      "last_date": "2021-12-30",
+      "mean_I2_hat": 0.05983088042705841,
+      "pct_reject_0.95": 75.9493670886076,
+      "pct_reject_0.99": 46.20253164556962,
+      "pct_reject_0.999": 3.1645569620253164
+    },
+    {
+      "asset": "Russell 2000",
+      "n_dates": 152,
+      "first_date": "2021-05-27",
+      "last_date": "2021-12-31",
+      "mean_I2_hat": 0.0065668724990820704,
+      "pct_reject_0.95": 0.0,
+      "pct_reject_0.99": 0.0,
+      "pct_reject_0.999": 0.0
+    },
+    {
+      "asset": "Perficient",
+      "n_dates": 152,
+      "first_date": "2021-05-27",
+      "last_date": "2021-12-31",
+      "mean_I2_hat": 0.04731314868041523,
+      "pct_reject_0.95": 55.92105263157895,
+      "pct_reject_0.99": 14.473684210526317,
+      "pct_reject_0.999": 0.0
+    },
+    {
+      "asset": "BTC/USD",
+      "n_dates": 265,
+      "first_date": "2021-04-10",
+      "last_date": "2021-12-30",
+      "mean_I2_hat": 0.014947230587414501,
+      "pct_reject_0.95": 1.8867924528301887,
+      "pct_reject_0.99": 0.0,
+      "pct_reject_0.999": 0.0
+    }
+  ]
+}
